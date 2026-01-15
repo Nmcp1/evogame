@@ -1,12 +1,4 @@
-Django>=4.2,<5.0
-djangorestframework>=3.14
-django-cors-headers>=4.3
-
-# Servidor WSGI para producción
+Django==5.0.7
 gunicorn>=21.2
-
-# Variables de entorno
+whitenoise>=6.6
 python-dotenv>=1.0
-
-# Utilidades
-pytz
